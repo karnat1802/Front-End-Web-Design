@@ -1,0 +1,531 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+body, html{
+	
+	margin: 0;
+    width: 1060px;
+    
+}
+
+.header {
+    background: rgb(255,255,255);
+    height: 148px;
+    border-bottom: 2px solid #9e9e9e2b;
+    z-index: 1;
+    width: 1060px;
+}
+
+
+.address{
+    display: inline-block;
+    float:left ;
+    width: 232px;
+    padding-left: 139px;
+    padding-top: 25px;
+    
+}
+
+#add2{
+    text-align: left;
+    width: 100%;
+    line-height: 1.2;
+    font-size: 11;
+}
+
+#add1{
+    font-size: 11;
+}
+
+.title{
+    display: inline-block;
+    float : left;
+    padding-left: 171px;
+    height: 148px;
+    padding-top: 47px;
+    color: #BE9B57;
+    font-size: 57;
+    line-height: 0.1;
+    letter-spacing: 10;
+    font:  3em sans-serif;
+    text-shadow: 0.5px 0.5px #BE9B57; 
+}
+
+
+
+#navbar{
+    height: 40px;
+    display: block;
+}
+
+#home{
+    display: inline-block;
+    padding-left: 156px;
+    padding-top: 22px;
+    line-height: 0;font-weight: 400;
+    color: #BE9B57;
+    font-size: 12;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 0.1px 0.1px #BE9B57;
+}
+
+
+
+#ourvision{
+    display: inline-block;
+    padding-left: 120px;
+    padding-top: 22px;
+    line-height: 0;
+    font-weight: 400;
+    font-size: 12;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 0.1px 0.1px black;
+}
+
+#menu{
+    display: inline-block;
+    padding-left: 120px;
+    padding-top: 22px;
+    line-height: 0;
+    font-weight: 400;
+    font-size: 12;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 0.1px 0.1px black;
+}
+#OrderOnline{
+    display: inline-block;
+    padding-left: 120px;
+    padding-top: 22px;
+    line-height: 0;
+    font-weight: 400;
+    font-size: 12;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 0.1px 0.1px black;
+}
+#contactus{
+    display: inline-block;
+    padding-left: 120px;
+    padding-top: 22px;
+    line-height: 0;
+    
+    font-size: 12;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 0.1px 0.1px black;
+}
+
+
+
+#back{
+ background: url('http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg') ;
+    
+    height: 535px;
+ /*   background-repeat: no-repeat;
+    background-position-x:-180px;
+    background-position-y: 67px; */  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: -314px;
+    background-position-y: 39px;
+    background-size: 1641px;
+}
+
+
+
+#col1,#col2{
+    position: relative;
+    z-index: 1;
+    
+}
+#col2{
+    float: right;
+    width: 545px;
+    
+    padding-top: 37px;
+
+}
+#col1{
+    float: left;
+    width: 515px;
+    
+}
+
+#res{
+    
+    width: 515px;
+    padding-top: 111px;
+    height: 558px;
+    display: block;
+    padding-left: 117px;
+}
+#res img{
+    width: 396px;
+    height: 445px;
+    float: right;   
+}
+
+#restaurant{
+    font-family: sans-serif;
+    font-size: 11.35;
+    letter-spacing: .1em;
+    padding-left: 48px;
+    margin: 0;
+    width: 180px;
+    line-height: 1;
+
+}
+#local{
+    font-style: italic;
+    font-family:  'Libre Baskerville', serif;
+    line-height: 0.7;
+    color: #BE9B57;
+    font-size: 28;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 48px;
+    padding-top: 17px;
+    width: 310px;
+/**    text-shadow: 0.1px 0.1px #BE9B57;**/
+    letter-spacing: 0.5px;
+}
+#for{
+    font-style: italic;
+    font-family:  'Libre Baskerville', serif;
+    line-height: 0.9;
+    color: #BE9B57;
+    font-size: 28;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 14px;
+    padding-left: 48px;
+ /**   text-shadow: 0.1px 0.1px #BE9B57; */
+    letter-spacing: 0.5px
+}
+
+
+#pineapples{
+    
+    width: 360px;
+    padding-top: 16px;
+    padding-left: 48px;
+    height: 110px;
+}
+
+#pineapples p{
+    font-size: 12.5;
+    font: helvetica;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.5;
+    word-spacing: 2px;
+}
+
+#read{
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 0.7;
+    padding-left: 48px;
+    width: 170px;
+    font-size: 12;
+    letter-spacing: 0.8;
+    
+}
+
+#leaves{
+    
+    width: 515px;
+    padding-top: 40px;
+    height: 270px;
+    display: block;
+    padding-left: 117px;
+}
+
+#leaves img{
+    width: 396px;
+    float: right;
+    height: 229px;
+}
+
+
+#freshest{
+
+    font-style: italic;
+    font-family:  'Libre Baskerville', serif;
+    padding-left: 117px;
+    padding-top: 77px;
+    line-height: 0.7;
+    color: #BE9B57;
+    font-size: 28;
+    font-weight: 400;
+    text-align: left;
+/**    text-shadow: 0.1px 0.1px #BE9B57; **/
+    letter-spacing: 0.5px;
+
+
+
+}
+
+#food{
+    font-style: italic;
+    font-family:  'Libre Baskerville', serif;
+    line-height: 1;
+    color: #BE9B57;
+    font-size: 28;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 117px;
+    padding-top:14px;
+ /**   text-shadow: 0.3px 0.3px #BE9B57; **/
+    letter-spacing: 0.5px;
+}
+
+#supporting{
+    width: 350px;
+    padding-top: 15px;
+    padding-left: 117px;
+
+}
+#supporting p{
+    font-size: 12.5;
+    font: helvetica;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    word-spacing: 2px
+
+}
+
+
+#read a{
+    color: black;
+}
+#read a:hover{
+    color: grey;
+}
+
+#read2 a{
+    color: black;
+}
+#read2 a:hover{
+    color: grey;
+}
+
+
+
+
+#read2{
+    
+    padding-top: 0px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 0;
+    padding-left: 117px;
+    width: 235px;
+    font-size: 12;
+    letter-spacing: 0.8;
+
+}
+
+#flowers{
+    padding-top: 90px;
+    padding-left: 37px;
+}
+
+#flowers img{
+    
+    width: 399px;
+    height: 277px;
+}
+
+#chef{
+    padding-left: 37px;
+    padding-top: 38px;
+}
+
+#chef img{
+    width: 398px;
+    height: 411px;
+    
+}
+
+
+
+#banner {
+    background: url('http://cs-server.usc.edu:45678/hw/hw3/images/image7.jpg') ;    
+    width: 834px;
+    height: 539px;
+    background-size: 100%;
+    margin-top: 52px;
+    margin-left: 115px; 
+    background-repeat: no-repeat;
+    
+    
+         
+}
+#spacing{
+    width: 100%;
+    height: 202px;
+    background-color: transparent;
+    margin: 0 auto;
+    position: inherit;
+}
+
+#greens{
+    width: 350px;
+    height: 125px;
+    background-color: white;
+    margin: 0 auto;
+    position: inherit;
+}
+
+#text{
+    font-size: 12;
+    padding-top: 42px;
+    padding-left: 90px;
+    width: 261px;
+    letter-spacing: 1.2;
+    font-size: 10.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+#order{
+    padding-left: 92px;
+    font-size:32 ;
+    width: 262px;
+    height: 34px;
+    padding-top: 5px;
+}
+#moretext{
+    height: 235px;
+    width: 1060px;
+}
+
+#gogreen{
+    padding-top: 48px;
+    padding-left: 472px;
+    font-size: 11;
+    width: 589px;
+    height: 61px;
+    letter-spacing: 1.8;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#loved{
+    padding-left: 138px;
+    font-style: italic;
+    font-family:  'Libre Baskerville', serif;
+
+    line-height: 0.9;
+    color: #BE9B57;
+    font-size: 28;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 16px;
+    width: 924px;
+    height: 37px;
+    text-align: center;
+ /**   text-shadow: 0.5px 0.5px #BE9B57;**/
+}
+
+#and{
+    padding-left: 425px;
+    font-style: italic;
+    font-family:   'Libre Baskerville', serif;
+    line-height: 0.9;
+    color: #BE9B57;
+    font-size: 28;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 16px;
+ /**   text-shadow: 0.5px 0.5px #BE9B57; **/
+
+}
+
+#coconut{
+    font-style: italic;
+    font-family:  'Libre Baskerville', serif;
+    line-height: 0.4;
+    color: #BE9B57;
+    font-size: 28;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 17px;
+    padding-left: 195px;
+/**    text-shadow: 0.5px 0.5px #BE9B57; **/
+}
+
+#table{
+    width: 1060px;
+    height: 424px;
+    background: url('http://cs-server.usc.edu:45678/hw/hw3/images/image5.jpg');
+    background-attachment: fixed;
+    background-position-x: 1px;
+    background-position-y: -180px;
+    background-size: 1060px;
+    background-repeat: no-repeat;
+}
+
+#footer{
+    height: 191px;
+    width: 1060px;
+    background-color: #BE9B57;
+    margin-bottom: 26px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#courtesy{
+    padding-left: 684px;
+    padding-top: 45px;
+    color: white;
+    font-size: 12;
+    width: 950px;
+    font-weight: 400;
+    letter-spacing: 0.1; 
+    font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#pineapple{
+    padding-left: 684px;
+    color: white;
+    font-size: 12;
+    width: 850px;
+    font-weight: 400;
+    letter-spacing: 0.2;
+    line-height: 1;
+    font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#clearfix{
+    clear: both;
+
+}
+
+#clearfix p{
+    margin: 0;
+}
+#order a{
+    color: black;
+}
+#order a:hover{
+    color: grey;
+}
+
+#add1, #add2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+

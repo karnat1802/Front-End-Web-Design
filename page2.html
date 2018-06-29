@@ -1,0 +1,18 @@
+<DOCTYPE HTML!>
+<HTML><HEAD><TITLE>Using Selection Lists</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+function getSelectValue(selectObject) {
+	return selectObject.options[selectObject.selectedIndex].value
+	}
+</SCRIPT></HEAD>
+<BODY>
+<FORM NAME="myform" method="POST">
+<SELECT NAME="teams">
+<OPTION value="dodgers">Dodgers
+<OPTION value="yankees">Yankees
+<OPTION value="angels">Angels
+</SELECT><BR>
+<INPUT TYPE="button" value="Show Selected Item " 
+onClick="alert(this.form.teams.value))">
+</FORM>
+</BODY></HTML>
